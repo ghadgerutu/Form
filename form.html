@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="./Images/smile.PNG" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/114bea6a45.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form action="">
+            <h2>Registration Form</h2>
+            <label for="fname">First Name:- </label>
+           <input type="text" id="fname" placeholder="Enter the First Name"/><br/>
+
+           <label for="lname">Last Name:- </label>
+           <input type="text" id="lname" placeholder="Enter the Last Name"/><br/>
+
+           <lable for="Mobile">Mobile Number:- </lable>
+           <input type="number" id="Mobile" placeholder="Enter the Mobile Number"/><br/>
+
+           <lable for="email">Email address:- </lable>
+           <input type="email" id="email" placeholder="Enter Email address"/><br/>
+
+           <label for="">D.O.B</label>
+           <input type="date"/><br/>
+           <!-- <input type="time"/><br/>
+           <input type="datetime-local"/><br/> -->
+
+           <label for="">Gender: </label><br/>
+           <input type="radio" name="gender" id="a"/><label for="">Female</label><br/>
+           <input type="radio" name="gender" id="a"/><label for="">Male</label><br/>
+
+           <label for="">Java is Which type of language:- </label><br/>
+           <input type="radio" name="option"/><label for="">High Level Language</label><br/>
+           <input type="radio" name="option"/><label for="">Low Level Language</label><br/>
+           <input type="radio" name="option"/><label for="">Mid-Level Language</label><br/>
+           <input type="radio" name="option"/><label for="">All Options</label><br/>
+           
+           <label for="">Upload Image</label>
+           <input type="file"/><br/>
+
+           <label for="pass">Create Password</label>
+           <input type="password" id="pass" placeholder="Enter Password"/><br/>
+
+           <label for="pass">Confirm Password</label>
+           <input type="password" id="pass" placeholder="Confirm Password"/><br/>
+
+           
+           <input type="checkbox" required/> <label for="">I have read & Understood Terms & Condition</label><br/>
+           <input type="checkbox" required/> <label for="">Agree Terms and Condition</label><br/>
+
+<!-- How the volume will be increase and decrease -->
+           <input type="range"/>
+           <input type="color"><br/>
+           
+           <!-- proper URL it should accept then user url -->
+           <input type="url"><br/>
+
+           <select name="" id="">
+            <!-- select not be selected from drop down then use hidden -->
+            <Option value="" hidden>-----Select-----</Option>
+            <Option value="">Testing</Option>
+            <Option value="">SQL</Option>
+            <Option value="">Core Java</Option>
+           </select><br/>
+
+           <label for="">FeedBack</label><br/>
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+
+           <button type="submit">submit</button>
+           <button type="reset">Cancel</button><br/>
+
+           <!-- <input type="submit">
+           <input type="reset"> -->
+        
+        </form>
+    </main>
+</body>
+</html>
